@@ -63,8 +63,8 @@ function Game() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="w-full mx-[50px] md:mx-[300px] p-6 bg-white rounded-lg shadow-md">
+    <div className="min-h-screen flex items-start justify-center bg-gray-100">
+      <div className="w-full mx-[50px] md:mx-[300px] p-6 bg-white rounded-lg shadow-md mt-20">
         {showScore ? (
           <div>
             <h2 className="text-2xl font-bold mb-4 text-center">Game Over!</h2>

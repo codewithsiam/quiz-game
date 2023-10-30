@@ -28,7 +28,7 @@ const Navbar = () => {
             </svg>
           </label>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">Quiz Game</a>
+        <Link to="/" className="btn btn-ghost normal-case text-xl">Quiz Game</Link>
       </div>
       <div className="navbar-center hidden lg:flex"></div>
       {user ? (
